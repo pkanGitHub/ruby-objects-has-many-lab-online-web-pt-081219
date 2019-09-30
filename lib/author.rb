@@ -21,4 +21,7 @@ class Author
     post.author == self
   end
 
+  def self.post.count
+    Post.all.count
+  end
 end

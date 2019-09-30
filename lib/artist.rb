@@ -2,13 +2,13 @@ class Artist
   attr_accessor :name
 
   @@all = []
-  
+
   def initialize(name)
     @name = name
     save
   end
 
-  def save 
-    
+  def save
+
   end
 end
